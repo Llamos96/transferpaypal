@@ -1,0 +1,82 @@
+.pricing-card{
+    border-radius: 9px;
+    border: 1px solid #eee;
+    padding: 25px;
+    transition: 0.3s;
+    position: relative;
+}
+
+.pricing-card:hover{
+    box-shadow: 0px 0px 13px 0px goldenrod;
+    transform: translateY(-24px)
+}
+
+.pricing-card .buy-btn{
+    width: 170px;
+    height: 50px;
+    background-color: dodgerblue;
+    font-weight: bolder;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    box-shadow: 0px 0px 4px 0px gray;
+}
+
+.pricing-card .real-price{
+    font-weight: lighter;
+    text-decoration:line-through;
+    
+}
+
+.pricing-card .save-span{
+    border-radius: 25px;
+    background-color: rgb(30, 144, 255,0.2);
+    color: rgb(30, 144, 255);
+    font-weight: bolder;
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.pricing-card .current-price{
+    margin: 20px;
+    font-size: 28px;
+    font-weight: 500;
+    color: rgb(30, 144, 255);
+}
+
+.pricing-card .price-number{
+    font-size: 43px;
+}
+
+.pricing-card li{
+    /* list-style-image: url('success.png'); */
+}
+
+.ribbon{
+    position: absolute;
+    right: -20px;
+    top: 0px;
+    height: 35px;
+    width: 90px;
+    transform: rotate(36deg);
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 9px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.ribbon2{
+    position: absolute;
+    left: 70px;
+    top: 550px;
+    width: 100px;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+
+}

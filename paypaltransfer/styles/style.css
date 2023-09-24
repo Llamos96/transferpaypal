@@ -1,0 +1,12 @@
+.p-offer{
+    color: goldenrod !important; 
+}
+
+.hero-img{
+    transition: .5s;
+    border-radius: 1px;
+}
+
+.hero-img:hover{
+    transform: scale3d(1.1, 1, 1)
+}
